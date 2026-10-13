@@ -1,0 +1,84 @@
+/* Flood Guardian AI - Dashboard Theme */
+
+.stApp {
+    background-color: #0b1220;
+    color: #e5edf7;
+}
+
+header[data-testid="stHeader"] {
+    background-color: #0b1220;
+}
+
+h1, h2, h3 {
+    color: #45d6c5 !important;
+    font-weight: 700 !important;
+}
+
+p, label, li {
+    color: #d7e2ef;
+}
+
+[data-testid="stMetric"] {
+    background: #152238;
+    border: 1px solid #29415c;
+    padding: 18px;
+    border-radius: 14px;
+}
+
+[data-testid="stMetricLabel"] {
+    color: #9eb4cc;
+}
+
+[data-testid="stMetricValue"] {
+    color: #45d6c5;
+}
+
+.stButton > button {
+    background-color: #12a99a;
+    color: white;
+    border: none;
+    border-radius: 9px;
+    padding: 8px 18px;
+    font-weight: 600;
+}
+
+.stButton > button:hover {
+    background-color: #0d8f83;
+    color: white;
+    border: 1px solid #45d6c5;
+}
+
+div[data-testid="stAlert"] {
+    border-radius: 10px;
+}
+
+section[data-testid="stSidebar"] {
+    background-color: #101b2d;
+}
+
+hr {
+    border-color: #29415c;
+}
+/* Dashboard spacing and layout */
+.block-container {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    max-width: 1400px;
+}
+
+[data-testid="stHorizontalBlock"] {
+    gap: 1.2rem;
+}
+
+[data-testid="stMetric"] {
+    min-height: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s ease;
+}
+
+.stSelectbox, .stNumberInput, .stTextInput {
+    border-radius: 10px;
+}
